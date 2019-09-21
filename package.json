@@ -1,0 +1,23 @@
+{
+  "name": "codeandcake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcastroemello/codeandcake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcastroemello/codeandcake/issues"
+  },
+  "homepage": "https://github.com/lcastroemello/codeandcake#readme"
+}
