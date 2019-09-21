@@ -1,22 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  grid-gap: 0;
+  background: black;
+}
+
+.cell {
+  display: inline-block;
+}
+
+.cell-border {
+  border: 1px solid #e74c3c;
 }
